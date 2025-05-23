@@ -1,0 +1,24 @@
+td {
+  border: 1px solid darkgray;
+  width: 30px;
+  height: 30px;
+}
+table{ margin: auto;
+border-collapse: collapse;}
+
+.Jaune {
+  background-color: rgb(183, 0, 255);
+}
+
+.gris {
+  background-color: grey;
+}
+.noir{
+    background-color: black;
+}
+.bleu{background-color: rgb(26, 23, 226);
+color:yellow;
+text-align: center;
+}
+
+.vert{background-color: green;}
