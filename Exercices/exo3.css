@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.rouge {display: flex;
+  background-color: rgb(165, 77, 55);
+  height: 70px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+
+
+.centré {
+  text-align: center;
+}
+
+.bleu {
+  background-color: rgb(11, 180, 192);
+  color: aliceblue;
+  height: 250px;
+}
+#tableau {display: grid ;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 250px;
+}
+.orange {background-color: chocolate;}
+
+.jaune {background-color: gold;}
+
+.vert {background-color: green;}
+
+
+a {text-decoration: none;
+color:aliceblue;
+padding:9px}
+
+.gauche {display: inline;}
+
+#oublie {display:grid ;
+background-color: blue;
+width: fit-content;
+}
+
