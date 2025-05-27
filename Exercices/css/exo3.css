@@ -6,11 +6,12 @@
 .rouge {display: flex;
   background-color: rgb(165, 77, 55);
   height: 70px;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
 }
 
-
+#gauche {
+color: aliceblue;}
 
 .centré {
   text-align: center;
@@ -25,11 +26,11 @@
     grid-template-columns: 1fr 1fr 1fr;
     height: 250px;
 }
-.orange {background-color: chocolate;}
+.orange {background-color: rgba(210, 105, 30, 0.733);}
 
-.jaune {background-color: gold;}
+.jaune {background-color: rgba(255, 217, 0, 0.733);}
 
-.vert {background-color: green;}
+.vert {background-color: rgba(0, 128, 0, 0.733);}
 
 
 a {text-decoration: none;
@@ -38,8 +39,15 @@ padding:9px}
 
 .gauche {display: inline;}
 
-#oublie {display:grid ;
+#oublie {
+margin: 50px auto 0 auto;
 background-color: blue;
-width: fit-content;
+height: 30px;
+width:fit-content;
+border-radius: 5px;
+display: flex;
+align-items: center;
 }
+
+h2 , h3 , p {padding:5px}
 

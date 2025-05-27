@@ -1,0 +1,33 @@
+#intro {
+  color: blue;
+}
+
+.note {
+  background-color: yellow;
+  color: chocolate;
+}
+.info {
+  color: cyan;
+}
+#important {
+  color: darkgreen;
+}
+
+.cta {
+  background-color: green;
+  color: antiquewhite;
+  padding: 5px;
+}
+
+.carte {display:grid;
+    border: 2px solid darkgray;
+    margin: 5px;
+    width: fit-content;
+    box-shadow: 5px 5px 5px red;
+}
+
+#acceuil h1 {color: crimson;}
+
+button { background-color: coral;}
+
+.actif { color: darkred;}
