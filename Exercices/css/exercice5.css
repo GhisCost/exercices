@@ -1,0 +1,219 @@
+div {
+  text-align: center;
+}
+/* Exercice 1 */
+.exo1 {
+  display: flex;
+}
+
+.bleu {
+  background-color: aqua;
+  width: 50px;
+  height: 60px;
+  margin: 5px;
+}
+/* Exercice 2 */
+.exo2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.vert {
+  background-color: greenyellow;
+  width: 50px;
+  height: 60px;
+  margin: 5px;
+}
+/* Exercice 3 */
+.exo3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.jaune {
+  background-color: yellow;
+  width: 50px;
+  height: 60px;
+}
+/* Exercice 4 */
+.exo4 {
+  display: flex;
+  justify-content: center;
+}
+
+.rouge {
+  background-color: red;
+  width: 50px;
+  height: 60px;
+  margin: 5px;
+}
+/* Exercice 5 */
+.exo5 {
+  display: flex;
+  align-items: center;
+  height: 200px;
+  background-color: black;
+}
+
+.violet {
+  background-color: blueviolet;
+  width: 50px;
+  height: 60px;
+  margin: 5px;
+}
+/* Exercice 6 */
+.exo6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  background-color: black;
+}
+
+.beige {
+  background-color: burlywood;
+  width: 50px;
+  height: 60px;
+  margin: 5px;
+}
+
+/* Exercice 7 */
+
+#exo7-1 {
+  display: flex;
+  justify-content: space-around;
+}
+#exo7-2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.gris {
+  background-color: gray;
+  width: 50px;
+  height: 60px;
+  margin: 5px;
+}
+
+/* Exercice 8 */
+
+.exo8 {
+  display: flex;
+  height: 300px;
+  align-items: center; /*ou flex-end, flex-start*/
+  background-color: black;
+}
+
+.marron {
+  background-color: maroon;
+  width: 50px;
+  height: 60px;
+  margin: 5px;
+}
+
+/* Exercice 9 */
+
+.exo9 {
+  display: flex;
+  height: 300px;
+  background-color: black;
+}
+
+.rougefonce {
+  background-color: darkred;
+  width: 50px;
+  height: 60px;
+  margin: 5px;
+}
+#quibouge {
+  align-self: flex-end;
+}
+
+/* Exercice 10 */
+.exo10 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.orange {
+  background-color: orange;
+  width: 50px;
+  height: 60px;
+  margin: 5px;
+}
+/* Exercice 11 */
+.exo11 {
+  display: flex;
+}
+
+.vertfluo {
+  background-color: greenyellow;
+  height: 60px;
+  margin: 5px;
+  width: 50px;
+}
+#quigrandit {
+  flex-grow: 0.2;
+}
+/* Exercice 12 */
+.exo12 {
+  background-color: black;
+  display: flex;
+  width: 100px;
+}
+
+.rose {
+  background-color: palevioletred;
+  height: 60px;
+  margin: 5px;
+  width: 50px;
+}
+#quiretrecit {
+  flex-shrink: 2;
+}
+/* Exercice 13 */
+.exo13 {
+  display: flex;
+}
+
+.bleufonce {
+  background-color: darkblue;
+  flex-basis: 90px;
+  height: 60px;
+  margin: 5px;
+  width: 50px;
+  
+}
+/* Exercice 14 */
+.exo14 {
+  display: flex;
+  width: 100px;
+  background-color: black;
+  flex-wrap: wrap;
+}
+
+.vertfonce {
+  background-color: darkgreen;
+  height: 60px;
+  margin: 5px;
+  width: 50px;
+}
+/* Exercice 15 */
+.exo15 {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.boite {
+  height: 100px;
+  width: 200px;
+  border: 2px solid darkgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bouton {
+background-color: rgb(220, 20, 20);
+}

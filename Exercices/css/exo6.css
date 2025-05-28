@@ -1,0 +1,75 @@
+#premiere {
+  width: 300px;
+  height: 150px;
+  background-color: red;
+}
+
+#grande {
+  background-color: grey;
+  width: 400px;
+  height: 400px;
+}
+
+#petite {
+  background-color: blue;
+  width: 50%;
+  height: 25%;
+}
+
+#jaune {
+  background-color: gold;
+  width: 500 px;
+  height: fit-content;
+}
+
+#verte {
+  background-color: green;
+  width: 60%;
+  max-width: 400px;
+  min-width: 200px;
+  height: 100px;
+}
+
+#jaune2 {
+  background-color: yellow;
+  max-height: 150px;
+  min-height: 100px;
+  overflow-y: scroll;
+}
+
+#violette {
+  background-color: blueviolet;
+  width: 100vw;
+  height: 50vh;
+  text-align: center;
+}
+#orange {
+  background-color: orange;
+  width: 200px;
+  height: 200px;
+}
+#image {height: 300px;
+width: 300px;
+}
+#image2 {
+ width: 100%;
+ height:100%;
+}
+
+#premiereboite {
+    height: 100px;
+    background-color: aqua;
+}
+#deuxiemeboite {height: 150px;
+background-color: aquamarine;}
+
+#troisiemeboite {height:200px;
+background-color: cyan;}
+
+#boite4{ width: 300px;
+height: 50px;
+}
+#boite5{width: 300px;
+height: 100px;}
+#boite6{width: 300px;
+height: 150px;}

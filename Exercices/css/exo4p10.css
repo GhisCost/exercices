@@ -1,16 +1,30 @@
-body{background-color: rgb(65, 3, 3);}
+body {
+  background-color: rgb(65, 3, 3);
+}
 
-h1{color: rgb(187, 18, 18);
-text-align: center;
-text-shadow: 1px 1px 2px rgb(248, 246, 246), 0 0 3em black, 0 0 0.2em red;
-font-size: 40px;}
+h1 {
+  color: rgb(187, 18, 18);
+  text-align: center;
+  text-shadow: 1px 1px 3px rgb(255, 255, 255), 0 0 3em rgb(0, 0, 0),
+    0 0 0.4em rgb(255, 0, 0);
+  font-size: 40px;
+}
 
-#porte{
-margin:auto;
-width: 596px;}
+#porte {
+  margin: auto;
+  width: 596px;
+}
 
-p{text-align: center;
-font-size: 150%;
-font-family:cursive;
-color: whitesmoke;
-text-shadow: rgb(211, 8, 8) 1px 0 10px;}
+p {
+  text-align: center;
+  font-size: 150%;
+  font-family: cursive;
+  color: whitesmoke;
+  text-shadow: rgb(211, 8, 8) 1px 0 10px;
+}
+
+.pied {
+  color: rgb(10, 9, 9);
+  font-size: medium;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
