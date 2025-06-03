@@ -1,0 +1,61 @@
+body {
+  color: aliceblue;
+  text-align: center;
+}
+
+p {
+  background-color: rgb(179, 99, 25);
+  height: 70px;
+  width: 80%;
+  margin: auto;
+  padding-top: 30px;
+}
+nav {
+  background-color: gray;
+  height: 30px;
+  width: 80%;
+  margin: auto;
+  padding-top: 14px;
+}
+footer {
+  background-color: lightgrey;
+  width: 80%;
+  margin: auto;
+  height: 80px;
+  padding-top: 40px;
+}
+main {
+  border: 8px solid aquamarine;
+  display: flex;
+  width: 79.2%;
+  margin: auto;
+  flex-wrap: wrap;
+}
+section {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  margin:auto;
+  justify-content: space-between;
+}
+
+div {
+  width: 49.45%;
+  height: 150px;
+  border: 2px solid white;
+}
+#sec1 {
+  background-color: bisque;
+}
+
+#sec2 {
+  background-color: rgb(37, 87, 145);
+}
+
+#sec3 {
+  background-color: rgb(24, 24, 99);
+}
+
+#sec4 {
+  background-color: rgb(201, 176, 97);
+}

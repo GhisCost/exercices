@@ -3,10 +3,10 @@ body {
 }
 
 h1 {
-  color: rgb(187, 18, 18);
+  color: rgb(136, 14, 14);
   text-align: center;
-  text-shadow: 1px 1px 3px rgb(255, 255, 255), 0 0 3em rgb(0, 0, 0),
-    0 0 0.4em rgb(255, 0, 0);
+  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.959), 0 0 3em rgb(51, 45, 45),
+    0 0 0.4em rgba(255, 0, 0, 0.849);
   font-size: 40px;
 }
 
