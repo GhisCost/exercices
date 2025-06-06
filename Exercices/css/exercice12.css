@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+}
+.container {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+header,
+footer {
+  background-color: #c86d35;
+  color: white;
+  margin: 0;
+  padding: 5px 0;
+  text-align: center;
+  padding-bottom: 10px;
+}
+/* header {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  margin:auto;
+}
+#enhaut {
+  width: 80%;
+} */
+header h2 {
+  margin: 15px 0;
+}
+a {
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+}
+#Bienvenue {
+  color: white;
+  /* margin-top: 80px; */
+  padding: 15px;
+  text-align: center;
+  background-image: url(/image/img/hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+button {
+  background-color: #ff6347;
+  border: none;
+  color: white;
+  padding: 7px;
+  border-radius: 3px;
+}
+#Apropos {
+  text-align: center;
+  margin: 0;
+  padding: 5px;
+  line-height: 2em;
+}
+#Menu {
+  text-align: center;
+}
+figure {
+  margin: 15px;
+}
+figure h4 {
+  margin: 5px;
+}
+img {
+  width: 100%;
+  border-radius: 5px;
+}
+#Contact {
+  padding: 10px;
+}
+#Contact h2,
+#adresse {
+  text-align: center;
+}
+#adresse p {
+  margin: 15px;
+}
+label,
+input,
+textarea {
+  width: 90%;
+  margin: 10px 15px;
+}
+#boutenvoyer {
+  background-color: #ff6347;
+  border: none;
+  color: white;
+  padding: 7px;
+  border-radius: 3px;
+  width: 91%;
+}
+@media (min-width: 768px) {
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    box-sizing: border-box;
+  }
+  #Bienvenue {
+    padding: 65px;
+    /* margin-top: 75px; */
+  }
+  #imagemenu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  figure {
+    width: 45%;
+    margin: 15px 0;
+  }
+}
+@media (min-width: 1024px) {
+
+  header {
+    padding: 0 80px;
+  }
+  figure {
+    width: 30%;
+  }
+  #chiant {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #formulaire {
+    width: 50%;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  #adresse {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  #Bienvenue {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+  }
+  button {
+    width: fit-content;
+  }
+}

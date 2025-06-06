@@ -66,13 +66,16 @@ figure {
     margin: 0;
 }
 
+
+
 img:hover {
     width: 150%;
     z-index: 2;
+    transition: width 0 ease-out 3s;
 }
 
 .chiantdedroite:hover {
-    transform:scale(150%);
+    translate:-239px 0;
     
 }
 .PZ {

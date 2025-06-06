@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boulangerie Parisienne gc</title>
+    <link rel="stylesheet" href="./css/exercice12.css" />
+  </head>
+  <body>
+    <div class="container">
+     <div id="enhaut">
+       <header>
+        <h2>Boulangerie Parisienne</h2>
+        <nav>
+          <a href="#Apropos">À propos</a>
+          <a href="#Menu">Menu</a>
+          <a href="#Contact">Contact</a>
+        </nav>
+      </header>
+    </div>
+      <main>
+        <div id="Bienvenue">
+          <h2>Bienvenue à la Boulangerie Parisienne</h2>
+          <p>Découvrez nos délicieuses pâtiseries et pains frais.</p>
+          <button> <a href="#Menu">Voir le Menu</a></button>
+        </div>
+        <div id="Apropos">
+          <h2>À Propos de nous</h2>
+          <p>
+            Situé au cœur de Paris, notre boulangerie vous propose des produits
+            frais et faits maison chaque jour.
+          </p>
+        </div>
+        <div id="Menu">
+          <h2>Notre Menu</h2>
+          <div id="imagemenu">
+            <figure>
+              <img
+                src="./image/img/croissants.jpg"
+                alt="Croissants jambons fromages sur une etale de boulangerie"
+              />
+              <figcaption>
+                <h4>Croissant</h4>
+                <p>Un croissant au beurre délicieux.</p>
+              </figcaption>
+            </figure>
+            <figure>
+              <img src="./image/img/baguettes.jpg" alt="5 baguettes alignés" />
+              <figcaption>
+                <h4>Baguette</h4>
+                <p>Notre célébre baguette croustillante.</p>
+              </figcaption>
+            </figure>
+            <figure>
+              <img
+                src="./image/img/chocolatine.jpg"
+                alt="Pains au cholocat sur un plateau"
+              />
+              <figcaption>
+                <h4>Pain au Chocolat</h4>
+                <p>Un délicieux pain au chocolat.</p>
+              </figcaption>
+            </figure>
+            <figure>
+              <img
+                src="./image/img/eclairs.jpg"
+                alt="Mini éclairs patisiers décorés"
+              />
+              <figcaption>
+                <h4>Éclair au Chocolat</h4>
+                <p>Un éclair avec une crème au chocolat.</p>
+              </figcaption>
+            </figure>
+            <figure>
+              <img
+                src="./image/img/macarons.jpg"
+                alt="Macarons sur un plateau en marbre avec une cloche en verre en arrière plan"
+              />
+              <figcaption>
+                <h4>Macarons</h4>
+                <p>Assortiments de macarons de différentes saveurs.</p>
+              </figcaption>
+            </figure>
+            <figure>
+              <img src="./image/img/tartes.jpg" alt="tarte aux fraises" />
+              <h4>Tarte aux fruits</h4>
+              <p>Une tarte garnie de fruits frais.</p>
+            </figure>
+          </div>
+        </div>
+        <div id="Contact">
+          <h2>Contactez-nous</h2>
+          <div id="chiant">
+            <div id="adresse">
+              <p>Adresse: 123 Rue de Paris, 75001 Paris</p>
+              <p>Téléphone: 01 23 45 67 89</p>
+              <p>Email: contact@boulangerieparisienne.fr</p>
+            </div>
+            <div id="formulaire">
+              <form action="">
+                <label for="nom">Nom:</label>
+                <input type="text" id="nom" required />
+                <label for="email">Email:</label>
+                <input type="email" id="email" required />
+                <label for="sujet">Sujet:</label>
+                <input type="text" id="sujet" required />
+                <label for="message">Message:</label>
+                <textarea
+                  id="message"
+                  minlength="15"
+                  maxlength="500"
+                  style="resize: none"
+                  rows="4"
+                  required
+                >
+                </textarea>
+                <input id="boutenvoyer" type="submit" value="Envoyer" />
+              </form>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <p>© 2024 - Boulangerie Parisienne. Tous droits réservés.</p>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,92 @@
+/* *{
+    margin: 0;
+    padding:0;
+    border:0;
+    box-sizing: border-box; 
+}  Correction*/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+header {
+  padding: 20px;
+  background-color: #9933cc;
+  margin-top: 5px;
+}
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+.boitemenugauche {
+  background-color: #33b5e5;
+  color: white;
+  width: 20vw;
+  box-shadow: 1px 3px 3px rgb(175, 169, 169);
+  padding: 6px;
+}
+#menudroite {
+  background-color: #33b5e5;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  width: 23vw;
+}
+#menudroite p {
+  font-size: 1em;
+}
+#menudroite p,
+#menudroite h2 {
+  padding: 0;
+  margin: 5px 0px;
+}
+#centre {
+  width: 45vw;
+}
+#centre h2 {
+  text-indent: 1em;
+}
+#centre p {
+  font-size: 1.1em;
+}
+footer {
+  background-color: #33b5e5;
+  color: white;
+  padding: 25px;
+}
+footer p {
+  margin: 0;
+}
+img {
+  width: 100%;
+}
+.image {
+  width: 24%;
+  margin: auto;
+}
+/* Pour prendre plusieurs éléments en fonction d'un préfixe, utiliser: [class*="truc qu'on veux ciblé"] */
+@media (max-width: 768px) {
+  header {
+    background-color: red;
+  }
+  #centre,
+  #menudroite,
+  #menugauche {
+    width: 80%;
+  }
+  .boitemenugauche {
+    width: 100%;
+  }
+  .image {
+    width: 40%;
+    margin: 10px;
+  }
+  footer,
+  header {
+    margin: 5px;
+  }
+}
