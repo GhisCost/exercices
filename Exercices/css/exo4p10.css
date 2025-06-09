@@ -21,10 +21,24 @@ p {
   font-family: cursive;
   color: whitesmoke;
   text-shadow: rgb(211, 8, 8) 1px 0 10px;
+  line-height: 5em;
 }
 
-.pied {
+#pied {
   color: rgb(10, 9, 9);
   font-size: medium;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  line-height: normal;
+}
+
+#textegauche {
+  position: absolute;
+  top: 20%;
+  left:5%;
+}
+
+#textedroite {
+  position:absolute;
+  top:20%;
+  right: 5%;
 }
