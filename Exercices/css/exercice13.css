@@ -1,0 +1,90 @@
+h1 {
+    color: tomato;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.boitepos {
+    background-color: chartreuse;
+    width: 100px;
+    height: 100px;
+    margin:5px;
+    border: 2px solid crimson;
+}
+
+#droite {
+    position: relative;
+    left: 20px;
+}
+
+#rouge {
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#maman {
+    position: relative;
+    height: 400px;
+}
+
+#petitdernier {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: coral;
+}
+
+#ban {
+    position: fixed;
+    top:0;
+    width: 100%;
+    background-color: blue;
+    margin: 0;
+    padding: 0;
+    height: 60px;
+    color: antiquewhite;
+    z-index: 1;
+}
+body {
+    height: 3000px;
+}
+
+a {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    background-color: blue;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+#carte {
+    position: relative;
+    margin: 0 35vw;
+    width: 40%;
+    box-shadow: 3px 10px 20px red;
+    border-radius: 5px;
+}
+img {
+    border-radius: 5px;
+}
+#bouttoncarte{
+    position: absolute;
+    right: 0;
+    bottom:0;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: crimson;
+    border: none;
+    color: aliceblue;
+}

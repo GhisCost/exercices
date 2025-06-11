@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header*/
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 15px;
+    padding:  10px;
+}
+
+/* image */
+
+#menu div {
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+}
+
+#menu div div {
+    margin: 10px auto;
+    width: 300px;
+    height: 200px;
+}
+
+#menu div div img {
+    width: 100%;
+    height: 100%;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px 0;
+}
