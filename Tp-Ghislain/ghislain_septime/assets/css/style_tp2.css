@@ -8,7 +8,7 @@
   text-align: center;
   font-family: "Cormorant Garamond", serif;
   background-color: #edeef0;
-  transform: translate(50%);
+  margin: 0 auto;
   line-height: 1;
 }
 hr {
@@ -88,7 +88,6 @@ h1 {
 }
 .divimagemillieu {
   width: 50%;
-  
 }
 .images {
   width: 100%;
@@ -168,53 +167,46 @@ footer {
   }
 }
 @media (max-width: 768px) {
-      #container {
+  #container {
     width: 80%;
     transform: translate(12.5%);
   }
-
   .divflex {
     flex-direction: column;
   }
   #divassiette {
-  width: 55vw;
-}
-
-#textassiette {
-  text-align: center;
-  transform: translate(0);
-}
-#hrassiette {
-  width: 50%;
-  transform: translate(50%);
+    width: 55vw;
   }
-
-.textmillieu {
-  text-align: center;
-  padding: 20px;
-  width: 90%;
-}
-.divimagemillieu {
-  width: 80%;
-}
-
-#service {
-  flex-direction: column;
-}
-#gout {
-  flex-direction: column;
-}
-
-footer {
+  #textassiette {
+    text-align: center;
+    transform: translate(0);
+  }
+  #hrassiette {
+    width: 50%;
+    transform: translate(50%);
+  }
+  .textmillieu {
+    text-align: center;
+    padding: 20px;
+    width: 90%;
+  }
+  .divimagemillieu {
+    width: 80%;
+  }
+  #service {
+    flex-direction: column;
+  }
+  #gout {
+    flex-direction: column;
+  }
+  footer {
     padding-top: 20px;
-}
-
-#textplan {
-  left: 30%;
-}
-
-.hrbas {
-width: 80%;
-transform: translate(10%);
-}
+  }
+  #textplan {
+    left: 30%;
+  }
+  .hrbas {
+    width: 80%;
+    transform: translate(10%);
+  }
 }

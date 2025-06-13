@@ -1,0 +1,329 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+.titre_ext,
+a {
+  font-family: "Caveat Brush", cursive;
+}
+
+header {
+  background-image: url(./img_tp3/planches.jpg);
+  height: 75vh;
+position: relative;
+}
+
+.rectanglerose {
+  background-color: rgb(227, 62, 110);
+  height: 10px;
+  width: 35px;
+  margin: auto;
+}
+
+header .rectanglerose {
+    transform: translate(-20%);
+}
+#baniere {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 40px 35px 60px;
+  position: fixed;
+  top:0;
+  z-index: 100;
+  width: 1200px;
+  background-image: url(./img_tp3/planches.jpg);
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline;
+}
+a:not(.titre_ext) {
+  text-decoration: none;
+  color: inherit;
+  padding: 20px;
+  font-size: 1.3em;
+}
+
+.echiant {
+    text-decoration: underline;
+    vertical-align: 5px;
+    font-size: 0.85em;
+    font-weight: bold;
+}
+img {
+  width: 100%;
+  display: block;
+}
+#imgheader {
+  width: 15%;
+  margin: 120px auto 0 auto;
+  position: relative;
+  top: 15%;
+ 
+}
+
+#triangle {
+width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 70px;
+  border-color: rgb(227, 62, 110) rgb(227, 62, 110) transparent transparent;
+  position: absolute;
+  top: 10%;
+  right: 18%;
+  z-index: 0;
+}
+#cerf {
+    position: relative;
+    z-index: 5;
+}
+#fleche {
+    height: 50px;
+    width: 50px;
+    border-style: solid ;
+    border-color:transparent  rgb(227, 62, 110)  rgb(227, 62, 110) transparent ;
+    transform: rotate(45deg);
+    position: absolute;
+    bottom: 40px;
+    left: 570px;
+}
+section:not(#secoeuf){
+    display: flex;
+    margin: 0 5px;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.titretext {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    
+}
+
+.textmain .rectanglerose{
+    margin: 20px auto;
+}
+
+.rosedessous {
+font-family:Arial, Helvetica, sans-serif;
+color: rgb(227, 62, 110) ;
+font-weight:520 ;
+margin-top: 15px;
+font-size: 0.7em;
+}
+
+#histoire .textmain{
+    width: 30%;
+}
+
+.textmain {
+    margin: 0 60px;
+}
+
+#imgasperge {
+    transform: scaleX(-1);
+}
+
+.coretext {
+    font-size: 0.6em;
+}
+
+.divgraine {
+    width: 100%;
+}
+
+#tarif {
+    flex-direction: row-reverse;
+}
+#tarif .textmain {
+    width: 20%;
+}
+
+#imgsavon { 
+    width: 70%;
+}
+
+#imgmoule {
+    width: 60%;
+}
+
+#boisson .textmain {
+    width: 30%;
+}
+
+#boisson .divgraine { 
+    width: 80%;
+    margin: auto;
+}
+
+#secoeuf {
+    background-image:  url(./img_tp3/oeuf.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 63vh;
+}
+
+footer{
+    display: flex;
+    height: 45vh;
+    background-image: url(./img_tp3/motif.jpg);
+    align-items: center;
+    justify-content: space-between;
+    text-align: start;
+    padding: 50px;
+}
+
+footer p:not(.rectanglerose) {
+    font-size: 0.6em;
+}
+#padbot {
+    padding-bottom: 10px;
+}
+
+footer .rectanglerose {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    transform: translate(-30%);
+}
+
+footer h2 {
+    font-size: 2em;
+}
+
+#icone i {
+padding: 3px;
+color: rgb(227, 62, 110);
+font-size: 1.2em;
+transform: translateY(170%);
+}
+
+@media (max-width:1200px) {
+    .container {
+        width: 100%;
+    }
+
+    #fleche {
+    position: absolute;
+    left: 47.5%;
+}
+#baniere {
+    width: 100%;
+    padding: 10px;
+
+}
+ }
+@media (max-width:992px) {
+    header {
+        height: 55vh;
+        
+    }
+
+    #fleche {
+        bottom: 20px;
+        left: 46.5%;
+    }
+
+    #triangle {
+        border-width: 60px;
+    }
+
+    #imgheader {
+        width: 20%;
+        margin-top: 60px;
+    }
+
+    .textmain {
+        margin:0 30px;
+        
+    }
+
+    #imgsavon {
+        width: 80%;
+    }
+    #imgmoule {
+        width: 80%;
+    }
+    #secoeuf {
+        height: 43vh;
+    }
+    footer {
+        height: 25vh;
+    }
+}
+
+@media (max-width:768px){
+    a:not(.titre_ext) {
+        padding: 5px;
+        font-size: 1.1em;
+    }
+    #imgheader {
+        width: 25%;
+        margin-top: 60px;
+    }
+
+    #triangle {
+        border-width: 55px;
+    }
+    #histoire .textmain{
+        width: 70%;
+    }
+    #histoire{
+        display:flex;
+        flex-direction: column-reverse;
+    }
+
+    #tarif {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #tarif .textmain{
+        width: 70%;
+    }
+
+    .divgraine img {
+        width:30%;
+        margin: auto;
+    }
+
+    #boisson {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #boisson .textmain {
+        width: 70%;
+    }
+    #imgsavon, #imgmoule {
+        width: 100%;
+    }
+
+    .rosedessous {
+        margin-bottom: 10px;
+    }
+    #secoeuf {
+        height: 30vh;
+    }
+}
+@media (max-width:576px) 
+{
+       header {
+        height: 30vh;
+        /* à finir */
+    }
+}
+
