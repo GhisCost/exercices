@@ -8,10 +8,25 @@
 
 header nav ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     list-style: none;
     gap: 15px;
     padding:  10px;
+}
+
+header nav {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+   
+}
+a {
+     text-decoration: none;
+    color: red;
+}
+h1 {
+    padding: 50px;
+    text-align: center;
 }
 
 /* image */
@@ -20,6 +35,16 @@ header nav ul {
     margin: 30px 0;
     display: flex;
     align-items: center;
+    position: relative;
+}
+
+#menu div p {
+    width: 70%;
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translate(-7%);
+    color: rgb(168, 29, 29);
 }
 
 #menu div div {

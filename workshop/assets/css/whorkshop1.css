@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+
+#baniere {
+    background-image: url(../img/banner-buisnessman.jpg);
+    background-repeat: no-repeat;    
+    height: 74vh;
+    font-family: "Dosis", sans-serif;
+}
+
+#fleche {
+    height: 12vh;
+}
+#project, #contact, #compagny, footer {
+    height: 12vh;
+    background-color:rgb(53, 58, 64);
+}
+
+#nav {
+    height: 10vh;
+}
+
+#logo {
+    width: 50px;
+}
+
+#imgfleche { 
+    width: 50px;
+}
+
+.card-text {
+    font-family: "Dosis", sans-serif;
+}
+@media (max-width:576px) {
+    .wiperso {
+        width: 100% !important;
+    }
+}
