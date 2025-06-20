@@ -1,0 +1,343 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#sur-corps {
+  background-color: #c8c8c8;
+}
+#corps {
+  /* font-family: Arial, Helvetica, sans-serif; */
+  background-image: url(/tp4/assets/img/fond.png);
+  background-repeat: repeat-x;
+  width: 1000px;
+  margin: auto;
+  box-shadow: 1px 1px 5px black;
+}
+#div-surnav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#div-titre {
+  display: flex;
+  flex-wrap: wrap;
+  width: 30%;
+}
+#div-logo {
+  margin: 10px;
+}
+h1 {
+  font-weight: 500;
+  font-size: 2.6em;
+  text-align: center;
+}
+#titre {
+  margin-left: 15px;
+}
+#titre-rose {
+  color: rgb(224, 36, 168);
+  font-size: 0.8em;
+  text-align: center;
+  font-weight: 400;
+}
+#titre-aide {
+  font-size: 1.8em;
+  font-weight: 550;
+}
+#div-aide {
+  color: rgb(103, 220, 255);
+  width: 25%;
+}
+#div-num {
+  position: relative;
+}
+#numero {
+  position: absolute;
+  top: 10%;
+  right: 45%;
+}
+#div-compte {
+  width: 30%;
+  text-align: center;
+  color: white;
+}
+#titre-compte {
+  background-color: rgb(103, 220, 255);
+  margin-bottom: 2px;
+}
+#div-article {
+  background-color: rgb(103, 220, 255);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+header nav {
+  background-color: rgb(103, 220, 255);
+}
+header ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+ul {
+  list-style: none;
+}
+header a {
+  text-decoration: none;
+  color: white;
+}
+header li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#nav-rose {
+  background-color: rgb(224, 36, 168);
+  margin: 0;
+  padding-top: 10px;
+  padding-left: 60px;
+  padding-right: 60px;
+  transform: translate(-25%);
+}
+#nav-mobile {
+  display: none;
+}
+#bandeau {
+  width: 100%;
+}
+#bandeau img {
+  display: block;
+  width: 100%;
+}
+#millieu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+#millieu-gauche {
+  width: 20%;
+  margin-top: 20px;
+}
+#millieu-gauche p {
+  padding-bottom: 10px;
+}
+#millieu-millieu {
+  width: 50%;
+  margin-top: 20px;
+  border-left: 1px solid rgb(220, 220, 220);
+  padding-left: 15px;
+}
+#millieu-droite {
+  width: 23%;
+  margin-top: 20px;
+  border-left: 1px solid rgb(220, 220, 220);
+  padding-left: 15px;
+}
+.titre-millieu {
+  color: rgb(103, 220, 255);
+  font-weight: 500;
+  padding-bottom: 10px;
+  font-size: 1.2em;
+}
+.div-services {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+#div-cartes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+.carte {
+  width: 31%;
+  box-shadow: 1px 1px 5px black;
+}
+.titre-carte {
+  background-color: #cfcfcf;
+  padding: 10px;
+  text-align: center;
+  font-size: 0.9em;
+}
+.div-carte-imgtext {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  gap: 5px;
+}
+.text-carte {
+  width: 65%;
+}
+#text-robe {
+  width: 80%;
+}
+.lien-carte {
+  color: rgb(103, 220, 255);
+}
+.p-lien {
+  text-align: end;
+}
+footer nav {
+  background-color: rgb(103, 220, 255);
+  margin-top: 20px;
+}
+footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+footer li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.7em;
+}
+@media (max-width: 1000px) {
+  #corps {
+    width: 100%;
+  }
+}
+@media (max-width: 992px) {
+  h1 {
+    font-size: 2em;
+  }
+  #div-titre {
+    width: 35%;
+  }
+  #numero {
+    right: 25%;
+  }
+  #titre-aide {
+    font-size: 1.5em;
+  }
+  #horraire {
+    font-size: 0.8em;
+  }
+  #div-img-art {
+    width: 40px;
+  }
+  #div-img-art img {
+    width: 100%;
+  }
+  .div-services {
+    justify-content: center;
+    padding-bottom: 5px;
+  }
+  .div-carte-imgtext {
+    justify-content: center;
+  }
+  .text-carte {
+    width: 80%;
+  }
+}
+@media (max-width: 768px) {
+  #div-titre {
+    width: 25%;
+    justify-content: center;
+  }
+  h1 {
+    line-height: 0.9;
+    font-size: 1.5em;
+  }
+
+  #numero {
+    right: 15%;
+  }
+
+  #div-article {
+    justify-content: center;
+  }
+
+  #nav-rose {
+    padding: 10px 30px 0 30px;
+  }
+
+  #div-paiement {
+    width: 100%;
+  }
+  #div-paiement img {
+    width: 100%;
+  }
+  footer li {
+    padding: 0 20px;
+  }
+}
+@media (max-width: 576px) {
+  #div-titre {
+    width: 100%;
+    align-items: center;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  #div-aide {
+    width: 45%;
+    text-align: center;
+  }
+  #div-compte {
+    width: 45%;
+  }
+  #numero {
+    right: 15%;
+  }
+  header ul {
+    margin-top: 10px;
+  }
+  header li:not(#nav-rose) {
+    display: none;
+  }
+  #nav-rose {
+    background-color: rgb(103, 220, 255);
+    text-decoration: underline rgb(224, 36, 168);
+  }
+  #nav-rose a {
+    color: rgb(224, 36, 168);
+  }
+  #nav-mobile {
+    display: block;
+    padding: 5px 10px;
+    font-size: 1.4em;
+    color: white;
+  }
+  #millieu-gauche {
+    width: 80%;
+  }
+  #div-paiement {
+    width: 65%;
+  }
+  #millieu-millieu {
+    width: 90%;
+    border: 0;
+    border-top: 1px solid rgb(220, 220, 220);
+    padding-top: 15px;
+  }
+  #millieu-droite {
+    width: 80%;
+    border: 0;
+    border-top: 1px solid rgb(220, 220, 220);
+    padding-top: 15px;
+  }
+  .carte {
+    width: 80%;
+    margin-top: 20px;
+  }
+  #sur-corps {
+    background-color: #fff;
+  }
+  .titre-millieu {
+    text-align: center;
+  }
+  footer li {
+    padding: 0 10px;
+  }
+}
