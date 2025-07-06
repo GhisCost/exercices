@@ -181,7 +181,7 @@
               impedit odit eos sit illum architecto provident animi reiciendis!
               Nisi exercitationem beatae omnis aliquam rem corrupti, in totam?
             </p>
-            <br>
+            <br />
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               Cupiditate natus sed magnam architecto dolore a velit at assumenda
@@ -201,14 +201,27 @@
           <h5>MAKE RESERVATION</h5>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas magni
-            recusandae fugit cupiditate nemo rem. Lorem ipsum dolor sit amet consectetur.
+            recusandae fugit cupiditate nemo rem. Lorem ipsum dolor sit amet
+            consectetur.
           </p>
           <form action="">
             <input type="text" placeholder="FULL NAME (FOCUS)" />
-            <input type="text" placeholder="FOR 2 PERSONS" />
-            <input type="date"/>
+            <select name="nombredepersonne" id="nbre-res">
+              <option value="2 personne">FOR 2 PERSONS</option>
+              <option value="1 personne">
+                For 1 person (you lonely fellow)
+              </option>
+              <option value="3 personnes">For 3 persons</option>
+              <option value="4 personnes">For 4 persons</option>
+              <option value="17 personnes">
+                For 17 persons (Prepare a ton of money)
+              </option>
+            </select>
+            <input type="date" />
           </form>
-          <button>RESERVE TABLE</button>
+          <a href="#">
+            <button>RESERVE TABLE</button>
+          </a>
         </div>
         <div id="recettes">
           <h3>Recipes</h3>
@@ -234,11 +247,10 @@
           </p>
           <p class="jaune-dessous">Got to our blog ...></p>
         </div>
-        <div>
+        <div id="plan">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5078.383095258178!2d-73.95760662667249!3d40.81424122163739!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1751623932321!5m2!1sfr!2sfr"
-            width="90%"
-            height="300"
+            height="500"
             style="border: 0"
             allowfullscreen=""
             loading="lazy"
@@ -255,7 +267,7 @@
             error soluta fugit, atque veritatis eius quaerat saepe iure
             doloribus sint culpa facilis! Nulla.
           </p>
-          <p>2018 THE FIASCO All rigths reserved</p>
+          <p id="tm">2018 THE FIASCO All rigths reserved</p>
         </div>
         <div>
           <h4>CONTACT INFO</h4>

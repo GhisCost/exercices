@@ -19,7 +19,7 @@ header {
 }
 
 header::before {
-  background-image: url(/assets/img/eggs.jpg);
+  background-image: url(/tp6/assets/img/eggs.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   content: "";
@@ -302,7 +302,7 @@ main {
 }
 
 #reservation::before {
-  background-image: url(/assets/img/reservation.jpg);
+  background-image: url(/tp6/assets/img/reservation.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   content: "";
@@ -316,7 +316,7 @@ main {
 }
 
 #reservation h3 {
-    font-family: "Dancing Script", cursive;
+  font-family: "Dancing Script", cursive;
   color: #dca621;
   font-size: 3.5em;
   padding: 45px;
@@ -324,52 +324,64 @@ main {
 }
 
 #reservation h5 {
-    font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 2em;
   margin-bottom: 15px;
   color: white;
 }
 #reservation p {
-    color: #b9b9b9;
-    font-size: 1.8em;
-    padding: 0px 250px 15px 250px;
-    line-height: 1.6em;
+  color: #b9b9b9;
+  font-size: 1.8em;
+  padding: 0px 250px 15px 250px;
+  line-height: 1.6em;
 }
 
 #reservation input {
-    background: none;
-    color: #b9b9b9;
-    border-radius: 10px;
-    border: 1px solid #b9b9b9;
-    font-size: 1.5em;
-    padding: 10px 10px;
-    text-align: center;
-    height: 50px;
+  background: none;
+  color: #b9b9b9;
+  border-radius: 10px;
+  border: 1px solid #b9b9b9;
+  font-size: 1.5em;
+  padding: 10px 10px;
+  text-align: center;
+  height: 50px;
 }
 
 #reservation form {
-    display: flex;
-    gap:25px;
-    justify-content: center;
-    padding-bottom: 150px;
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  padding-bottom: 150px;
+}
+
+#nbre-res {
+  background: none;
+  color: #b9b9b9;
+  border-radius: 10px;
+  border: 1px solid #b9b9b9;
+  font-size: 1.5em;
+  padding: 10px 10px;
+  text-align: center;
+  height: 50px;
 }
 
 #reservation button {
-    background-color: #dca621;
-    border-radius: 10px;
-    border: none;
-    color: white;
-    font-size: 1.4em;
-    padding: 10px 35px;
+  background-color: #dca621;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-size: 1.4em;
+  padding: 10px 35px;
 }
 
 #recettes {
-    width: 80%;
-    text-align: end;
+  width: 60%;
+  text-align: end;
+  margin: auto;
 }
 
 #recettes h3 {
-    font-family: "Dancing Script", cursive;
+  font-family: "Dancing Script", cursive;
   color: #dca621;
   font-size: 2.6em;
   font-style: italic;
@@ -378,7 +390,7 @@ main {
 }
 
 #recettes h5 {
-    font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 2em;
   margin-bottom: 15px;
   color: white;
@@ -389,9 +401,63 @@ main {
   font-style: italic;
   font-family: "Roboto", sans-serif;
   font-size: 1.2em;
+  margin-top: 35px;
 }
 
 #recettes p {
-    color: #b9b9b9;
-    font-size: 1.6em;
+  color: #b9b9b9;
+  font-size: 1.6em;
+  padding: 10px;
+}
+
+#recettes span {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  display: inline-block;
+  width: 45px;
+  margin-right: 10px;
+}
+
+#plan {
+  margin: 200px auto 11px auto;
+  width: 95%;
+}
+
+#plan iframe {
+  width: 100%;
+}
+
+footer {
+  background-image: url(/tp6/assets/img/splash.png);
+  background-color: #383838;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  width: 100%;
+  height: 50vh;
+  display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+footer>div {
+  width: 25%;
+}
+
+footer>div:first-child {
+  margin-left: 70px;
+}
+
+footer h4 {
+color: #dca621;
+font-size: 1.8em;
+margin-bottom: 50px;
+}
+
+footer p {
+  color: #b9b9b9;
+  font-size: 1.1em;
+}
+
+#tm {
+  margin-top: 50px;
 }
